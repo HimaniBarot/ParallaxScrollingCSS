@@ -1,58 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Parallax Scrolling</title>
 
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      .parallax {
-        min-height: 500px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        scroll-behavior: smooth;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parallax Scrolling</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-      .home {
-        background-image: url("assets/images/home.jpg");
-      }
+<body>
+  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, amet.</h1>
 
-      .sub {
-        background-image: url("assets/images/bg.jpg");
-      }
+  <div class="parallax bg1"></div>
 
-      h1,
-      h3 {
-        text-align: center;
-        margin: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>You'd find informative contents here.</h1>
+  <div class="inner inner-div1">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum laboriosam hic reprehenderit dolore doloribus magni
+    illo, nobis rerum ea nostrum laudantium commodi non qui modi eius praesentium ab voluptatibus! Tenetur. Lorem ipsum
+    dolor sit amet consectetur adipisicing elit. Optio dolor molestias sapiente in delectus nesciunt culpa quibusdam
+    exercitationem maiores inventore.
+  </div>
 
-    <div class="parallax home"></div>
+  <div class="parallax bg2"></div>
 
-    <div style="height: 500px; background-color: #a9a9a9; font-size: 36px">
-      <h3>HTML</h3>
-      Scroll Up and Down this page to see the parallax scrolling effect. This
-      div is just here to enable scrolling. Tip: Try to remove the
-      background-attachment property to remove the scrolling effect.
-    </div>
+  <div class="inner inner-div2">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum consequatur pariatur veniam, voluptate modi sint.
+  </div>
 
-    <div class="parallax sub"></div>
+  <div class="parallax bg3"></div>
+</body>
 
-    <div style="height: 500px; background-color: #a9a9a9; font-size: 36px">
-      Scroll Up and Down this page to see the parallax scrolling effect. This
-      div is just here to enable scrolling. Tip: Try to remove the
-      background-attachment property to remove the scrolling effect.
-    </div>
-  </body>
 </html>
